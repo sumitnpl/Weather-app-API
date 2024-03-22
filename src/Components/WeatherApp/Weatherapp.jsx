@@ -11,7 +11,8 @@ import humidity_icon from '../Assets/humidity.png'
 import night_icon from '../Assets/moon_6711119.png'
 
 const Weatherapp = () => {
-  let api_key="dfdc4831c18b74a14078fa74aab004a4";
+  //write your api key here
+  let api_key="your_api_key";
   const [wicon,setwicon] = useState(cloud_icon);
 
   const search =async (e)=>{
